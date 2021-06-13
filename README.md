@@ -1,13 +1,8 @@
-# DigiPol
+# VoteUI
 
-## *Connecting Real People with their Parliament*
+A flutter based web3 voting app 
 
 --------------------------------------------------------------------------------
-
-## Primary Program Objectives
-
-The DigiPol Voting App will allow Australian Voters to be able to vote on current _issues_ and _bills_ within the political landscape.
-
 
 ### Sample
 
@@ -17,13 +12,11 @@ The DigiPol Voting App will allow Australian Voters to be able to vote on curren
 
 Join us on
 
-[![image](/assets/graphics/discord.png)](https://discord.gg/xFMUTZw) <!-- .element height="50%" width="50%" -->
+[![image](/assets/graphics/discord.png)](https://discord.gg/5RekPAcUc6) <!-- .element height="50%" width="50%" -->
 
 A list of current items and their progress can be found in the project boards. If you feel comfortable diving straight in, just fork the repo, and open it up in Android Studio.
 
 We use [Effective Dart](https://dart.dev/guides/language/effective-dart) to guide our coding style, so make sure you make yourself familiar. Make the contributions you want to and create a Pull Request.
-
-For collaborating, best practice is to join our _Discord Community_ at [discord.io / FluxParty](discord.io/FluxParty) and let us know where you're interested in helping out. That way we can make sure you are up to date with all the relevant information and put you in contact with others working on the project!
 
 If you are new to Flutter here are a few resources to get you started on your first Flutter project:
 
@@ -73,12 +66,6 @@ Run `flutter doctor` again to check dependencies.
 
 The app frontend is built with [Flutter](https://flutter.dev/) using the Dart Programming Language. This repo will focus entirely on this part of the project.
 
-## Back end
-
-- The app backend is built using multiple serverless lambdas to interact with MongoDB and other external services. **(NOTE: This repo will only cover the UI Architecture, for information on the backend head over to [voting-app-api](https://github.com/KipCrossing/voting-app-api)**
-- Databases and API are managed on AWS using lambda functions Data for Bills are mirrored from the federal and state parliament websites using the [ausbills](https://github.com/KipCrossing/Aus-Bills) python package
-- The app will utilise the Ethereum blockchain to validate votes.
-- Issues are manually entered into the database for now
 
 # Flutter Architecture
 
@@ -128,18 +115,3 @@ Any UI element or styling feature is contained here. Avoid using app logic in th
 - **Login Page** - email - password
 - **Results Page** - List of horizontal bar graphs - 1 for each electorate
 - **Verification/Settings Page** - AEC details, electorate details, representatives and voting patterns, join Flux button, link settings (google/FB/Insta)
-
-----------
-
-## Future Plans (Beta)
-
-- Graphs (Public Voice)
-- Commenting on Bills
-- Weekly Reports
-- Politi Compass - Personalised Voting History
-- Create Issues UI
-- User Settingss
-- Settings - Notifications, Emails
-- sorting bills - Date, title, chamber
-- Search bar
-- results map
